@@ -22,7 +22,7 @@ plugins {
 }
 
 
-rootProject.name = 'untitled-multiLoader-template'
+rootProject.name = 'recycled'
 includeBuild('build-logic')
 include('common')
 include('fabric')

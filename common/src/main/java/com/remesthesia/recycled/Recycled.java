@@ -1,12 +1,12 @@
-package com.remesthesia.template;
+package com.remesthesia.recycled;
 
 import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public final class Template {
-    public static final String MOD_ID = "template";
-    public static final Logger LOGGER = LoggerFactory.getLogger("Template");
+public final class Recycled {
+    public static final String MOD_ID = "recycled";
+    public static final Logger LOGGER = LoggerFactory.getLogger("Recycled");
 
     public static void init() {}
 
