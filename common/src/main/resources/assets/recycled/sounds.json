@@ -1,0 +1,10 @@
+{
+  "music_disc.dog": {
+    "sounds": [
+      {
+        "name": "recycled:records/dog",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-    implementation("com.github.remesthesia.untitled:untitled-neoforge-${untitled_version}:${untitled_version}")
+    implementation("com.github.remesthesia.untitled:untitled-neoforge-${minecraft_version}:${untitled_version}")
 }
 
 neoForge {

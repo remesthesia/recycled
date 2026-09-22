@@ -8,5 +8,6 @@ public final class RecycledNeoForge {
 
     public RecycledNeoForge(IEventBus eventBus) {
         Recycled.init();
+
     }
 }

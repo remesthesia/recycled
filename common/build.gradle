@@ -17,7 +17,7 @@ dependencies {
     compileOnly('net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7')
     compileOnly(annotationProcessor('io.github.llamalad7:mixinextras-common:0.5.3'))
 
-    compileOnly("com.github.remesthesia.untitled:untitled-common-${untitled_version}:${untitled_version}")
+    compileOnly("com.github.remesthesia.untitled:untitled-common-${minecraft_version}:${untitled_version}")
 }
 
 configurations {

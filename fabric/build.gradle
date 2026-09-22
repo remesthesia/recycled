@@ -7,7 +7,7 @@ dependencies {
     implementation("net.fabricmc:fabric-loader:${fabric_loader_version}")
     implementation("net.fabricmc.fabric-api:fabric-api:${fabric_version}")
 
-    implementation("com.github.remesthesia.untitled:untitled-fabric-${untitled_version}:${untitled_version}")
+    implementation("com.github.remesthesia.untitled:untitled-fabric-${minecraft_version}:${untitled_version}")
 }
 
 loom {
