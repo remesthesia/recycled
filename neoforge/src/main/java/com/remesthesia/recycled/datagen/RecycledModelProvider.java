@@ -16,6 +16,7 @@ public class RecycledModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(@NonNull BlockModelGenerators blockModelGenerators, @NonNull ItemModelGenerators itemModelGenerators) {
+        itemModelGenerators.generateFlatItem(RecycledItems.MUSIC_DISC_CALM.value(), ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(RecycledItems.MUSIC_DISC_DOG.value(), ModelTemplates.FLAT_ITEM);
     }
 }

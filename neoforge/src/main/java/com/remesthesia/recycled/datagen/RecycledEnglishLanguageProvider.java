@@ -12,7 +12,10 @@ public class RecycledEnglishLanguageProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        add(RecycledItems.MUSIC_DISC_CALM.value(), "Music Disc");
         add(RecycledItems.MUSIC_DISC_DOG.value(), "Music Disc");
-        add("jukebox_song.recycled.dog", "C418 - DOG");
+
+        add("jukebox_song.recycled.calm", "Notch - Calm");
+        add("jukebox_song.recycled.dog", "C418 - dog");
     }
 }

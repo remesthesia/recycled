@@ -1,4 +1,12 @@
 {
+  "music_disc.calm": {
+    "sounds": [
+      {
+        "name": "recycled:records/calm",
+        "stream": true
+      }
+    ]
+  },
   "music_disc.dog": {
     "sounds": [
       {

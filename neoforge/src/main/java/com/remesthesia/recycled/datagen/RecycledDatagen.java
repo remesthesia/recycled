@@ -13,6 +13,7 @@ public final class RecycledDatagen {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent.Client event) {
         event.createProvider(RecycledEnglishLanguageProvider::new);
+        event.createProvider(RecycledItemTagsProvider::new);
         event.createProvider(RecycledModelProvider::new);
         event.createDatapackRegistryObjects(new RegistrySetBuilder().add(Registries.JUKEBOX_SONG, RecycledJukeboxSongs::bootstrap));
     }

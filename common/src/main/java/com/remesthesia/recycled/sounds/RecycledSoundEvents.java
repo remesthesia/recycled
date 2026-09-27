@@ -7,6 +7,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.sounds.SoundEvent;
 
 public final class RecycledSoundEvents {
+    public static final Holder<SoundEvent> MUSIC_DISC_CALM = register("music_disc.calm");
     public static final Holder<SoundEvent> MUSIC_DISC_DOG = register("music_disc.dog");
 
     public static void init() {}

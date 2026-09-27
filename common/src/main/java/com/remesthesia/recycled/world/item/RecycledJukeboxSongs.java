@@ -14,10 +14,12 @@ import net.minecraft.world.item.JukeboxSong;
 import net.minecraft.world.item.JukeboxSongs;
 
 public interface RecycledJukeboxSongs {
+    ResourceKey<JukeboxSong> CALM = create("calm");
     ResourceKey<JukeboxSong> DOG = create("dog");
 
     static void bootstrap(BootstrapContext<JukeboxSong> context) {
-        register(context, DOG, RecycledSoundEvents.MUSIC_DISC_DOG, 185, 2);
+        register(context, CALM, RecycledSoundEvents.MUSIC_DISC_CALM, 193, 2);
+        register(context, DOG, RecycledSoundEvents.MUSIC_DISC_DOG, 146, 2);
     }
 
     static void init() {}

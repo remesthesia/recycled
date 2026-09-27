@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "jukebox_song.recycled.calm"
+  },
+  "length_in_seconds": 193.0,
+  "sound_event": "recycled:music_disc.calm"
+}

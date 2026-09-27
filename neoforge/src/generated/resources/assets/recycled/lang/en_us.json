@@ -1,4 +1,6 @@
 {
+  "item.recycled.music_disc_calm": "Music Disc",
   "item.recycled.music_disc_dog": "Music Disc",
-  "jukebox_song.recycled.dog": "C418 - DOG"
+  "jukebox_song.recycled.calm": "Notch - Calm",
+  "jukebox_song.recycled.dog": "C418 - dog"
 }
