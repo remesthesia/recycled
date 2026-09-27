@@ -15,6 +15,7 @@ public final class RecycledItems {
     public static void init() {}
 
     private static Holder<Item> register(String id, Function<Item.Properties, Item> item, Supplier<Item.Properties> properties) {
+
         return RegistryHelper.getInstance().registerItem(Recycled.getIdentifier(id), item, properties);
     }
 }
