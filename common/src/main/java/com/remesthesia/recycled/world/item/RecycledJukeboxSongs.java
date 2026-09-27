@@ -8,10 +8,8 @@ import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.Util;
 import net.minecraft.world.item.JukeboxSong;
-import net.minecraft.world.item.JukeboxSongs;
 
 public interface RecycledJukeboxSongs {
     ResourceKey<JukeboxSong> CALM = create("calm");
@@ -29,6 +27,13 @@ public interface RecycledJukeboxSongs {
     }
 
     private static void register(BootstrapContext<JukeboxSong> context, ResourceKey<JukeboxSong> registryKey, Holder<SoundEvent> soundEvent, int lengthInSeconds, int comparatorOutput) {
-        context.register(registryKey, new JukeboxSong(soundEvent, Component.translatable(Util.makeDescriptionId("jukebox_song", registryKey.identifier())), lengthInSeconds, comparatorOutput));
+        context.register(registryKey,
+                new JukeboxSong(
+                        soundEvent,
+                        Component.translatable(Util.makeDescriptionId("jukebox_song", registryKey.identifier())),
+                        lengthInSeconds,
+                        comparatorOutput
+                )
+        );
     }
 }

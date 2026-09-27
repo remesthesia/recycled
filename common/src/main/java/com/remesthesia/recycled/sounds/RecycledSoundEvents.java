@@ -13,6 +13,10 @@ public final class RecycledSoundEvents {
     public static void init() {}
 
     private static Holder<SoundEvent> register(String id) {
-        return RegistryHelper.getInstance().register(BuiltInRegistries.SOUND_EVENT, Recycled.getIdentifier(id), SoundEvent::createVariableRangeEvent);
+        return RegistryHelper.getInstance().register(
+                BuiltInRegistries.SOUND_EVENT,
+                Recycled.getIdentifier(id),
+                SoundEvent::createVariableRangeEvent
+        );
     }
 }

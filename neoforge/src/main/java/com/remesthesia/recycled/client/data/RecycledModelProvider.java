@@ -1,4 +1,4 @@
-package com.remesthesia.recycled.datagen;
+package com.remesthesia.recycled.client.data;
 
 import com.remesthesia.recycled.Recycled;
 import com.remesthesia.recycled.world.item.RecycledItems;
@@ -9,7 +9,7 @@ import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.data.PackOutput;
 import org.jspecify.annotations.NonNull;
 
-public class RecycledModelProvider extends ModelProvider {
+public final class RecycledModelProvider extends ModelProvider {
     public RecycledModelProvider(PackOutput output) {
         super(output, Recycled.MOD_ID);
     }
